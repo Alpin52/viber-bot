@@ -1,6 +1,6 @@
 <?php
 $url = 'https://chatapi.viber.com/pa/set_webhook';
-$jsonData='{ "auth_token": "4ca4a3d3b7800c35-4de01367dfd47715-3ba9ff08226308ae", "url": "https://math.alpin52.ru/viber_php_bot" }';
+$jsonData='{ "auth_token": "MY_TOKEN", "url": "https://math.alpin52.ru/viber_php_bot" }';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
